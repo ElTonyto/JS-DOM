@@ -1,0 +1,57 @@
+#content{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+ }
+ #content .menu{
+    flex:1;
+ }
+ #content .menu div{
+    margin: 2em;
+    padding: 2em;
+ }
+ #content .menu div{
+    display: block;
+    text-align: center;
+ }
+ #content .targets{
+    flex:2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ #content .targets .target{
+    margin: 5em;
+    padding: 2em;
+    text-align: center;
+ }
+ 
+ .light-grey {
+    background: #eee;
+ }
+ 
+ .light-grey h2,
+ .light-grey span{
+    color: #333;
+ }
+ 
+ .pink {
+    background: #E80C7A;
+    color: "#fff";
+ }
+ 
+ .red {
+    background: #E82C0C;
+    color: "#fff";
+ }
+ 
+ .grey {
+    background: #cccccc;
+ }
+ 
+ .dark-grey {
+    background: #333333;
+ }
+ .pink, .red , .grey , .dark-grey {
+    color: #eeeeee;
+ }
